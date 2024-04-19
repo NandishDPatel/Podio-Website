@@ -1,2 +1,2 @@
 # Podio-Website
-Website design created using React
+Website created using React
