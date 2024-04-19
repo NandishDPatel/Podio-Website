@@ -1,0 +1,9 @@
+npm run build
+website - netlify
+email : nanlogex@gmail.com
+password : Netlify@123
+url : https://www.netlify.com/
+
+---------------------
+My created Podio Website :- https://podio-website-react01.netlify.app
+ 

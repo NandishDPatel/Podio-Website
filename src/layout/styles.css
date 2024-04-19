@@ -1,0 +1,280 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.navbar-nav li {
+  margin: 0px 5px;
+}
+.nav-item a {
+  position: relative;
+  color: #000 !important;
+  /* border-bottom: 1px solid black; */
+  /* background: green; */
+}
+/* .nav-item a::before {
+  position: absolute;
+  top: -100px;
+  border-bottom: 2px solid black !important;
+} */
+.nav-item a:hover {
+  color: #05758a !important;
+}
+.signUp {
+  background: #00687a;
+  border: #00687a;
+}
+.signUp:hover {
+  background: #05758a;
+}
+
+/* Header */
+.myheader {
+  margin-top: 70px;
+  padding-top: 150px;
+  padding-left: 150px;
+  background: linear-gradient(rgba(0, 56, 148, 0.5), rgba(0, 56, 148, 0.5)),
+    url("../../public/img/01-banner.jpeg");
+  background-size: cover;
+  height: 700px;
+}
+.hdrContent h1 {
+  letter-spacing: 5px;
+  font-size: 70px;
+  font-weight: 400;
+}
+.hdrContent p {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.hdrContent .srch {
+  padding-top: 20px;
+}
+.hdrContent .srch input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+}
+.hdrContent .srch button {
+  padding: 10px;
+  width: 120px;
+  border-radius: 0px 5px 5px 0px;
+  background: #00687a;
+  color: #fff;
+  border: none;
+}
+.hdrContent .srch button:hover {
+  background: #05758a;
+}
+.headerApi {
+  background: #eadfdf;
+}
+/*  */
+/* Drive Content */
+.driveCont {
+  padding: 100px;
+}
+.driveCont h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+.driveCont h3 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 0px;
+  letter-spacing: 2px;
+}
+.driveCont button {
+  background: #00687a;
+  padding: 10px 20px;
+  border: 0px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.driveCont button:hover {
+  background: #05758a;
+}
+.tighterCont h1 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.tighterCont h3 {
+  font-weight: 350;
+  font-size: 20px;
+}
+/* ---------- */
+
+/* ---------Chance ------------------ */
+.chance {
+  background: blue;
+  height: 400px;
+}
+.chance .photo {
+  background: url("../../public/img/06-banner2.jpg");
+  background-size: cover;
+  background-position: -150px 0px;
+  height: 400px;
+  padding: 100px 0px 0px 800px;
+  letter-spacing: 3px;
+}
+.chance .photo h1 {
+  line-height: 70px;
+}
+.chance .photo h4 {
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+/* ----- DependCont -------------- */
+
+.dependCont .link a {
+  color: #00687a;
+  font-weight: 500;
+}
+.dependCont .link a:hover {
+  color: #000;
+}
+/* ----------- ComponentCont --------------- */
+.componentCont img{
+  background: pink;
+  height: 60px;
+}
+
+/* --------------- Footer ----------------- */
+.ftr{
+    background: rgb(83, 82, 82);
+    background-size: 100% 100%;
+}
+.ftr .srch {
+    padding-top: 20px;
+  }
+  .ftr .srch input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+  }
+  .ftr .srch button {
+    padding: 10px;
+    width: 120px;
+    border-radius: 0px 5px 5px 0px;
+    background: #00687a;
+    color: #fff;
+    border: none;
+  }
+  .ftr .srch button:hover {
+    background: #05758a;
+  }
+  .ftrNav img{
+    height: 25px;
+  }
+  .ftrNav ul{
+    margin: auto;
+  }
+ .ftrNav li{
+  border-right: 1px solid lightgrey;
+  margin: 0px 5px;
+  font-size: 12px;
+ }
+ .ftrNav .languages{
+  border: none;
+ }
+ .ftrNav .languages select{
+  width: 80px;
+  padding-left: 10px;
+  background: rgb(237, 228, 228);
+  margin: 0px 10px;
+  height: 24px;
+  border-radius: 3px;
+ }
+ .ftrP{
+  padding: 5px 80px 5px 0px;
+  font-size: 13px;
+ }
+
+
+ /* ------------------------- Use Case Page ---------------------------- */
+ .useCaseCont{
+  margin-top: 100px;
+ }
+ .useCaseCont p{
+  margin: 0px;
+ }
+ .useCaseCont h1 {
+  margin: 0px;
+  font-size: 70px;
+  font-weight:450;
+  margin-bottom: 10px;
+}
+.useCaseCont h3 {
+  font-weight: 350;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px 300px;
+}
+
+.whateverCont{
+  padding-left: 100px;
+  background: rgba(238,238,238,1);
+}
+ .whateverCont h1 {
+  margin: 0px;
+  font-size: 40px;
+  font-weight:450;
+  margin-bottom: 10px;
+}
+.whateverCont h3 {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px 300px;
+}
+.whateverCont .row{
+  padding: 0px 50px;
+}
+.whateverCont .card{
+  border: 1px solid grey;
+  background: rgb(242, 242, 242);;
+  border-radius: 0px;
+  height: 160px;
+}
+.whateverCont .card:hover{
+  transform: translateY(-5px);
+  transition: 1s;
+  box-shadow: 5px 5px lightgrey;
+}
+.whateverCont .card-title{
+  color: #00687a;
+  font-weight: 500;
+}
+.whateverCont .card-text{
+  font-weight: 500;
+}
+.podioEffect{
+  background: url('../../public/img/podio-effect.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.podioEffect .symbol i{
+  color: blue;
+}
+.podioEffect h3 a{
+  color: #00687a;
+  text-decoration: none;
+}
+.podioEffect .iContent{
+  right: 250px;
+  bottom: 0px;
+  /* top: 300px; */
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
